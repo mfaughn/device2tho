@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="devicealert-activationState" />
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+  </meta>
+  <extension
+    url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="dev" />
+  </extension>
+<!-- remove this extension -->
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="draft" />
+  </extension>
+  <!-- remove this extension -->
+  <extension
+    url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0" />
+  </extension>
+<!-- url origin becomes http://terminology.hl7.org/ValueSet -->
+  <url value="http://terminology.hl7.org/ValueSet/devicealert-activationState" />
+  <version value="1.0.0" />
+  <name value="DeviceAlertActivationStateCodes" />
+  <title value="DeviceAlert Activation State Codes" />
+<!-- status becomes "active" -->
+  <status value="draft" />
+<!-- experimental must be "false" -->
+  <experimental value="true" />
+<!--use this publisher -->
+  <publisher value="Health Level Seven International" />
+<!--use this contact -->
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="hq@HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="DeviceAlert Activation State Codes" />
+  <compose>
+    <include>
+      <!-- system origin becomes http://terminology.hl7.org/CodeSystem -->
+      <system value="http://terminology.hl7.org/CodeSystem/devicealert-activationState" />
+    </include>
+  </compose>
+</ValueSet>
