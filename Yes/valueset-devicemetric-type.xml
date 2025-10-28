@@ -8,7 +8,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="dev"/>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/devicemetric-type"/>
+  <url value="http://terminology.hl7.org/ValueSet/devicemetric-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.6.24"/>
@@ -22,16 +22,21 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.3.895"/>
   </identifier>
-  <version value="6.0.0"/>
+  <version value="1.0.0"/>
   <name value="DeviceMetricAndComponentTypes"/>
   <title value="Device Metric and Component Types"/>
-  <status value="draft"/>
-  <experimental value="true"/>
-  <publisher value="HL7 Health Care Devices Workgroup"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-10-28T10:01:24+11:00"/>
+  <publisher value="Health Level Seven International"/>
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/fhir"/>
+      <value value="http://hl7.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="hq@HL7.org"/>
     </telecom>
   </contact>
   <description value="Codes used to identify health care device metric types and units and component types as part of the ISO/IEEE 11073-10101 Medical Device Communication Nomenclature."/>

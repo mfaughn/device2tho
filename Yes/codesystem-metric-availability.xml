@@ -8,33 +8,27 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="dev"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-    <valueCode value="trial-use"/>
-  </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-    <valueInteger value="2"/>
-  </extension>
-  <url value="http://hl7.org/fhir/metric-availability"/>
-  <version value="6.0.0"/>
+  <url value="http://terminology.hl7.org/CodeSystem/metric-availability"/>
+  <version value="1.0.0"/>
   <name value="DeviceMetricAvailability"/>
   <title value="Device Metric Availability"/>
-  <status value="draft"/>
+  <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-07-02T10:01:24+11:00"/>
-  <publisher value="HL7 (FHIR Project)"/>
+  <date value="2025-10-28T10:01:24+11:00"/>
+  <publisher value="Health Level Seven International"/>
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/fhir"/>
+      <value value="http://hl7.org"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="fhir@lists.hl7.org"/>
+      <value value="hq@HL7.org"/>
     </telecom>
   </contact>
   <description value="The availability of the means from which a metric state/value is derived."/>
   <caseSensitive value="true"/>
-  <valueSet value="http://hl7.org/fhir/ValueSet/metric-availability"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/metric-availability"/>
   <content value="complete"/>
   <concept>
     <code value="intr"/>

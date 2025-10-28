@@ -8,29 +8,28 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="dev"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-    <valueCode value="draft"/>
-  </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-    <valueInteger value="2"/>
-  </extension>
-  <url value="http://hl7.org/fhir/ValueSet/devicealert-type"/>
-  <version value="6.0.0"/>
+  <url value="http://terminology.hl7.org/ValueSet/devicealert-type"/>
+  <version value="1.0.0"/>
   <name value="DeviceAlertTypeCodes"/>
   <title value="DeviceAlert Type Codes"/>
   <status value="active" />
   <experimental value="false"/>
-  <publisher value="FHIR Project team"/>
+  <date value="2025-10-28T10:01:24+11:00"/>
+  <publisher value="Health Level Seven International"/>
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/fhir"/>
+      <value value="http://hl7.org"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="hq@HL7.org"/>
     </telecom>
   </contact>
   <description value="DeviceAlert Type Codes"/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/devicealert-type"/>
+      <system value="http://terminology.hl7.org/CodeSystem/devicealert-type"/>
     </include>
   </compose>
 </ValueSet>

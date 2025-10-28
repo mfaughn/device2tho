@@ -9,25 +9,22 @@
     url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="dev" />
   </extension>
-  <extension
-    url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-    <valueCode value="draft" />
-  </extension>
-  <extension
-    url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-    <valueInteger value="2" />
-  </extension>
-  <url value="http://hl7.org/fhir/ValueSet/devicealert-condition" />
-  <version value="6.0.0" />
+  <url value="http://terminology.hl7.org/ValueSet/devicealert-condition" />
+  <version value="2.0.0" />
   <name value="DeviceAlertConditionCodes" />
   <title value="DeviceAlert Condition Codes" />
   <status value="active" />
   <experimental value="false" />
-  <publisher value="FHIR Project team" />
+  <date value="2025-10-28T10:01:24+11:00" />
+  <publisher value="Health Level Seven International" />
   <contact>
     <telecom>
       <system value="url" />
-      <value value="http://www.hl7.org/Special/committees/healthcaredevices" />
+      <value value="http://hl7.org" />
+    </telecom>
+    <telecom>
+      <system value="email" />
+      <value value="hq@HL7.org" />
     </telecom>
   </contact>
   <description value="DeviceAlert Condition Codes" />
